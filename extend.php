@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Ssangyongsports\OAuthSlack;
+namespace Ssangyongsports\OAuthLogto;
 
 use Flarum\Extend;
 use FoF\OAuth\Extend as OAuthExtend;
@@ -23,5 +23,5 @@ return [
 
     new Extend\Locales(__DIR__.'/locale'),
 
-    (new OAuthExtend\RegisterProvider(Providers\Slack::class)),
+    (new OAuthExtend\RegisterProvider(Providers\Logto::class)),
 ];
