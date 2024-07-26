@@ -16,7 +16,7 @@ use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Token\AccessToken;
 use Psr\Http\Message\ResponseInterface;
 
-class SlackProvider extends AbstractProvider
+class LogtoProvider extends AbstractProvider
 {
     public function getBaseAuthorizationUrl()
     {
