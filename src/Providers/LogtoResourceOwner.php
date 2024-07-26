@@ -14,7 +14,7 @@ namespace Ssangyongsports\OAuthSlack\Providers;
 use Illuminate\Support\Arr;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 
-class SlackResourceOwner implements ResourceOwnerInterface
+class LogtoResourceOwner implements ResourceOwnerInterface
 {
     protected $response;
 
