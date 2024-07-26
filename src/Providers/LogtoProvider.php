@@ -47,7 +47,7 @@ class LogtoProvider extends AbstractProvider
 
     protected function createResourceOwner(array $response, AccessToken $token)
     {
-        return new SlackResourceOwner($response);
+        return new  LogtoResourceOwner($response);
     }
 
     protected function prepareAccessTokenResponse(array $result)
