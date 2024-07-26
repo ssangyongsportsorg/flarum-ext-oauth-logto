@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Blomstra\OAuthSlack\Providers;
+namespace ssangyongsports\OAuthSlack\Providers;
 
 use Flarum\Forum\Auth\Registration;
 use FoF\OAuth\Provider;
@@ -24,7 +24,7 @@ class Slack extends Provider
 
     public function name(): string
     {
-        return 'slack';
+        return 'Logto';
     }
 
     public function link(): string
