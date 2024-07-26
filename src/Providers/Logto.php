@@ -15,7 +15,7 @@ use Flarum\Forum\Auth\Registration;
 use FoF\OAuth\Provider;
 use League\OAuth2\Client\Provider\AbstractProvider;
 
-class Slack extends Provider
+class Logto extends Provider
 {
     /**
      * @var SlackProvider
