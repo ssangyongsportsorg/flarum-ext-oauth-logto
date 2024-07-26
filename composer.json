@@ -1,5 +1,5 @@
 {
-    "name": "blomstra/oauth-slack",
+    "name": "Ssangyongsports/oauth-slack",
     "description": "Sign in with Slack",
     "keywords": [
         "flarum", "slack", "oauth", "fof", "sso"
@@ -12,8 +12,8 @@
     },
     "authors": [
         {
-            "name": "Team Blomstra",
-            "email": "development@blomstra.net",
+            "name": "Team Ssangyongsports",
+            "email": "ssangyongsports1@gmail.com",
             "role": "Developer"
         }
     ],
