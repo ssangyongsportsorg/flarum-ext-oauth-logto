@@ -1,6 +1,9 @@
 {
     "name": "ssangyongsports/oauth-slack",
     "description": "Sign in with Slack",
+     "require": {
+    "ssangyongsports/oauth-slack": "^1.0" // 或者最新的穩定版本
+  },
     "keywords": [
         "flarum", "slack", "oauth", "fof", "sso"
     ],
