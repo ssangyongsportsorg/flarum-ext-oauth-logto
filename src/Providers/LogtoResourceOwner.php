@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Blomstra\OAuthSlack\Providers;
+namespace Ssangyongsports\OAuthSlack\Providers;
 
 use Illuminate\Support\Arr;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
@@ -30,7 +30,7 @@ class SlackResourceOwner implements ResourceOwnerInterface
 
     public function getId(): ?string
     {
-        return Arr::get($this->response, 'https://slack.com/user_id');
+        return Arr::get($this->response, 'https://auth.ssangyongsports.eu.org/oidc/me');
     }
 
     public function getName(): ?string
