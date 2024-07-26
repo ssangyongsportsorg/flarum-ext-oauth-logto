@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Ssangyongsports\OAuthSlack\Providers;
+namespace Ssangyongsports\OAuthLogto\Providers;
 
 use Flarum\Forum\Auth\Registration;
 use FoF\OAuth\Provider;
