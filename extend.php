@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Blomstra\OAuthSlack;
+namespace Ssangyongsports\OAuthSlack;
 
 use Flarum\Extend;
 use FoF\OAuth\Extend as OAuthExtend;
