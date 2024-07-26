@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Blomstra\OAuthSlack\Providers;
+namespace Ssangyongsports\OAuthSlack\Providers;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
@@ -20,17 +20,17 @@ class SlackProvider extends AbstractProvider
 {
     public function getBaseAuthorizationUrl()
     {
-        return 'https://slack.com/openid/connect/authorize';
+        return 'https://auth.ssangyongsports.eu.org/oidc/auth';
     }
 
     public function getBaseAccessTokenUrl(array $params)
     {
-        return 'https://slack.com/api/openid.connect.token';
+        return 'https://auth.ssangyongsports.eu.org/oidc/token';
     }
 
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
-        return 'https://slack.com/api/openid.connect.userInfo';
+        return 'https://auth.ssangyongsports.eu.org/oidc/me';
     }
 
     protected function getDefaultScopes()
