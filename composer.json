@@ -1,5 +1,5 @@
 {
-    "name": "Ssangyongsports/oauth-slack",
+    "name": "ssangyongsports/oauth-slack",
     "description": "Sign in with Slack",
     "keywords": [
         "flarum", "slack", "oauth", "fof", "sso"
