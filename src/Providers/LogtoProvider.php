@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Ssangyongsports\OAuthSlack\Providers;
+namespace Ssangyongsports\OAuthLogto\Providers;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
