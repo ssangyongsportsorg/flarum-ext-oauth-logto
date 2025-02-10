@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/blomstra/oauth-slack.svg)](https://packagist.org/packages/blomstra/oauth-slack) [![Total Downloads](https://img.shields.io/packagist/dt/blomstra/oauth-slack.svg)](https://packagist.org/packages/blomstra/oauth-slack)
 
-A [Flarum](http://flarum.org) extension. Sign in with Slack
+A [Flarum](http://sysport.xyz) extension. Sign in with Slack
 
 ## Installation
 
